@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #3490dc;
+    --secondary-color: #ffed4a;
+    --font-family: 'Arial, sans-serif';
+}
+
+.container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+#favorite-songs {
+    background-color: var(--secondary-color);
+    padding: 3rem 0;
+}
+
+#favorite-songs h2 {
+    color: var(--primary-color);
+}
+
+#favorite-songs p {
+    color: #333;
+}
+
+.text-pianote {
+    color: #fff;
+}
+
+.smaller {
+    font-size: 0.9rem;
+}
+
+.text-light-navy {
+    color: #879cbf;
+}
+
+.active-toggle.active {
+    background-color: #2c3d5b !important;
+    border-color: #2c3d5b !important;
+    color: #fff !important;
+}
